@@ -1,0 +1,16 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Data (ne pas commiter si > 4-5MB)
+data/raw/
+data/processed/
+
+# Secrets / env
+.env
+
+# OS / IDE
+.DS_Store
+.vscode/
