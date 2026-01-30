@@ -8,19 +8,11 @@ les traite (Pandas) et les visualise (Streamlit) pour analyser des tendances cli
 
 ## Membres du groupe
 
-- NOM Prénom 1
-- NOM Prénom 2
-- NOM Prénom 3 (si applicable)
+- Ouedraogo Paligwende Rosette
 
 ## Dépôt Git (public)
 
-Lien vers le dépôt : https://github.com/`<votre-compte>`/`<votre-repo>`
-
-## (Optionnel) Image Docker Hub
-
-Lien Docker Hub : https://hub.docker.com/r/`<votre-compte>`/`<votre-image>`
-
----
+Lien vers le dépôt : https://[github.com/pal371](https://github.com/pal371/weather-impact-app)
 
 ## Objectif du projet
 
@@ -32,13 +24,11 @@ Cette application de données complète :
 
 Périmètre : **Région PACA** (Marseille, Nice, Toulon, Avignon, Gap, Digne-les-Bains).
 
----
 
 ## Source de données
 
 - **Open-Meteo Archive API** (données quotidiennes : température min/max, précipitations, vent)
 
----
 
 ## Structure du projet
 
@@ -53,7 +43,7 @@ Périmètre : **Région PACA** (Marseille, Nice, Toulon, Avignon, Gap, Digne-les
 ## Gestion des données (important)
 
 Les fichiers de données peuvent dépasser **4–5 Mo** sur une longue période.
-➡️ **Les dossiers `data/raw/` et `data/processed/` ne sont pas inclus dans le dépôt Git** (voir `.gitignore`).
+**Les dossiers `data/raw/` et `data/processed/` ne sont pas inclus dans le dépôt Git** (voir `.gitignore`).
 
 Pour générer les données localement :
 
